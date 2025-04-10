@@ -1,0 +1,27 @@
+{
+  "name": "HDStaticPod",
+  "version": "0.1.10",
+  "summary": "A short description of HDStaticPod.",
+  "description": "「   converted automatically by plugin cocoapods-imy-bin  」\n TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/erduoniba/HDStaticPod",
+  "authors": {
+    "denglibing": "denglibing@hd.com"
+  },
+  "source": {
+    "http": "http://localhost:8080/frameworks/HDStaticPod/0.1.10/zip",
+    "type": "zip"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "HDStaticPod/Classes/**/*.{h,m,swift}",
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
+    "OTHER_SWIFT_FLAGS": "$(inherited) -no-verify-emitted-module-interface",
+    "DEFINES_MODULE": "YES"
+  },
+  "vendored_frameworks": "HDStaticPod.framework",
+  "swift_version": "5.0"
+}
